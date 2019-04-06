@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	"time"
+
+	print "github.com/untillpro/directcd-test-print"
 )
 
 func main() {
@@ -12,7 +14,7 @@ func main() {
 	cnt := 0
 	for {
 		cnt++
-		fmt.Println(cnt, time.Now())
+		print.Print(cnt)
 		select {
 		case <-time.After(time.Second * 10):
 		}
