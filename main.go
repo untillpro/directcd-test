@@ -10,7 +10,7 @@ import (
 
 func main() {
 
-	fmt.Println("directcd_test", 1, os.Args)
+	fmt.Println("directcd_test", 1, "args=", os.Args)
 
 	cnt := 0
 	for {
