@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"os"
 	"time"
 
 	print "github.com/untillpro/directcd-test-print"
@@ -9,7 +10,7 @@ import (
 
 func main() {
 
-	fmt.Println("directcd_test", 1)
+	fmt.Println("directcd_test", 1, os.Args)
 
 	cnt := 0
 	for {
